@@ -317,7 +317,7 @@ double calquantum(vtkSmartPointer<vtkSRep> srepfig, vtkSmartPointer<vtkSRepInter
 
 
 
-        //form the matrix adn calculate the eigenvalues
+        //form the matrix and calculate the eigenvalues
         double sigma[14];
         double matrix[2][2];
         if(usesubquad)
