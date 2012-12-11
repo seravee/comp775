@@ -58,7 +58,7 @@ double calquantum(vtkSmartPointer<vtkSRep> srepfig, vtkSmartPointer<vtkSRepInter
 
         double step = pow((double)2, (double)interlevel);
 
-        //get the
+        //get the area of the quads or the subquads
         for(unsigned i = 0; i < CellNum; i++)
         {
                 areas.push_back(0);
