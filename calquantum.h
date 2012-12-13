@@ -24,5 +24,6 @@
 
 
 
+void calEigen(double matrix[][2], vector<double> data1, vector<double> data2, int datanum, double &eigen1, double &eigen2);
 
 double calquantum(vtkSmartPointer<vtkSRep> srepfig, vtkSmartPointer<vtkSRepInterpolateMedialSheet> medialsheetinterpolator, vtkSmartPointer<vtkSRep> srepcrest, vtkSmartPointer<vtkSRepInterpolateMedialSpokesHermite> medialspokesinterpolator);
